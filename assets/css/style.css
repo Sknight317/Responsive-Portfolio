@@ -1,0 +1,163 @@
+
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+   padding: 20px;
+   font-size: 35px;
+
+}
+
+#Name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    height: 50px;
+    float: left;
+    margin: 0;
+    text-align: center;
+    
+
+}
+body {
+    color: #777777;
+    background-image: url("../images/sakura.png");
+    position: relative;
+    height: 100%;
+    margin:0; 
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+}
+
+li {
+    float: right;
+    border-right: solid 2px #777777;
+
+}
+.About{
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  a:link {color: #777777}
+  a:visited {color: #4aaaa5}
+  a:hover {color: palevioletred}
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    display: inline;
+    background-color: #ffffff;
+    float: right;
+    }
+
+footer {
+    text-align: center;
+    width: 100%;
+    color:#ffffff;
+    height: 30px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    margin-right: 20px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -30px;
+    margin: 0 auto;
+}
+
+.push {
+    height: 30px;
+}
+
+.head {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #ffffff;
+    
+}
+
+.container {
+    margin-bottom: 50px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    
+    height: 70px;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    z-index: 10;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        width: 100%;
+        margin: 40px;
+    }
+     
+    #Name {  
+        width: 100%;
+        margin: 0;
+    }
+    .About, img, .push, nav {
+        width:100%;
+    }
+    nav {
+        margin: 0 auto;
+        float: left;
+    }
+
+    img {
+        margin: 20px;
+        height: 100%;
+        max-width: 550px;
+    
+    }
+
+    .nav {
+        background-color: #ffffff;
+        padding: 20px;
+        float: right;
+    }
+}

@@ -1,0 +1,17 @@
+.container1 {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   float: left;
+}
+
+.title {
+    position: absolute;
+    bottom: 15px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 260px;
+    text-align: center;
+    margin: 20px;
+   float: left;
+}
