@@ -133,31 +133,28 @@ img {
 @media screen and (max-width: 640px) {
     .wrapper {
         width: 100%;
-        margin: 40px;
+        margin: 30px auto;
+        
     }
      
     #Name {  
         width: 100%;
         margin: 0;
     }
-    .About, img, .push, nav {
+    .About, .nav, nav, footer, .push {
         width:100%;
     }
-    nav {
-        margin: 0 auto;
-        float: left;
-    }
-
-    img {
-        margin: 20px;
-        height: 100%;
-        max-width: 550px;
     
+    .container {
+        position: static;
     }
 
     .nav {
-        background-color: #ffffff;
+      
         padding: 20px;
-        float: right;
+        margin: 0 auto;
+        
+       
     }
+    
 }
